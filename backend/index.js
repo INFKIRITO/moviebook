@@ -21,7 +21,7 @@ app.use(express.json());
 
 // CORS Configuration
 app.use(cors({
-    origin: "http://localhost:3000", // Your frontend URL
+    origin: ["http://localhost:3000", "https://moviebook-ashy.vercel.app"], // Your frontend URL
     optionsSuccessStatus: 200,
     credentials: true // Include credentials if needed (like cookies, authorization headers, etc.)
 }));
