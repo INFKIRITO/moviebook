@@ -16,14 +16,14 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 
-
 // Middleware to handle JSON requests
 app.use(express.json());
 
 // CORS Configuration
 app.use(cors({
-    origin: ["https://localhost:3000"], // Your frontend URLs
+    origin: "http://localhost:3000", // Your frontend URL
     optionsSuccessStatus: 200,
+    credentials: true // Include credentials if needed (like cookies, authorization headers, etc.)
 }));
 
 // Define routes

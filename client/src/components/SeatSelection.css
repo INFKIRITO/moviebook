@@ -1,0 +1,90 @@
+.seat-selection {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .screen-selection {
+    margin-bottom: 20px;
+  }
+  
+  .screen-selection ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .screen-selection li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .screen-selection button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .screen-selection button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .seat-map {
+    margin-bottom: 20px;
+  }
+  
+  .seat-map ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .seat-map li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .seat-map button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .seat-map button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .booked-seats {
+    margin-bottom: 20px;
+  }
+  
+  .booked-seats ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .booked-seats li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .booked-seats button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .booked-seats button:hover {
+    background-color: #3e8e41;
+  }
+  
